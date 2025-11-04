@@ -1,0 +1,25 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.dylib
+*.so
+*.dll
+
+# IDE files
+.vscode/
+.idea/
+*.xcodeproj
+*.xcworkspace
+
+# macOS
+.DS_Store
+
+# Node modules
+node_modules/
+
+# Generated files
+Source/
+
+# Keep template but ignore working files
+!juce-template/

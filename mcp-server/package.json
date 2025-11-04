@@ -1,0 +1,22 @@
+{
+  "name": "juce-docs-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for JUCE framework documentation and VST plugin development",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.21.0"
+  },
+  "keywords": [
+    "mcp",
+    "juce",
+    "vst",
+    "audio",
+    "plugin"
+  ],
+  "author": "",
+  "license": "MIT"
+}
